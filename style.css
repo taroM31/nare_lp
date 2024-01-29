@@ -10,3 +10,16 @@ body {
 img {
   vertical-align: bottom;
 }
+
+/* PCの画面サイズ（最小幅768ピクセル）で適用するスタイル */
+@media screen and (min-width: 768px) {
+  .container {
+      width: 1280px; /* コンテンツの幅を1280ピクセルに固定 */
+      margin: 0 auto; /* 左右のマージンを自動に設定して中央揃えに */
+      background-color: white; /* 背景色を白に設定 */
+  }
+
+  body {
+      background-color: white; /* 背景色を白に設定 */
+  }
+}
