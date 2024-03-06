@@ -7,6 +7,41 @@ img {
   vertical-align: bottom;
 }
 
+.nare_wrapper {
+  position: relative;
+  text-align: center;
+}
+
+.nare_btn1 {
+  position: absolute;
+  width: 50%;
+  top: 90%;
+  right: 25%;
+}
+
+.nare_btn2 {
+  position: absolute;
+  width: 42%;
+  top: 86%;
+  right: 28%;
+}
+
+@media screen and (max-width: 768px) {
+  .nare_btn1 {
+    position: absolute;
+    width: 80%;
+    top: 88%;
+    right: 25%;
+  }
+
+  .nare_btn2 {
+    position: absolute;
+
+    top: 86%;
+    right: 28%;
+  }
+}
+
 /* PCの画面サイズ（最小幅768ピクセル）で適用するスタイル */
 @media screen and (min-width: 768px) {
   .container {
