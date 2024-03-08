@@ -14,16 +14,20 @@ img {
 
 .nare_btn1 {
   position: absolute;
-  width: 50%;
+  width: 60%;
   top: 90%;
-  right: 25%;
+  right: 20%;
+}
+
+.nare_underbtn {
+  text-align: center;
+  padding-top: 30px;
+  width: 100%;
+  height: auto;
 }
 
 .nare_btn2 {
-  position: absolute;
-  width: 42%;
-  top: 86%;
-  right: 28%;
+  width: 60%;
 }
 
 @media screen and (max-width: 768px) {
@@ -31,15 +35,33 @@ img {
     position: absolute;
     width: 80%;
     top: 88%;
-    right: 25%;
+    right: 11%;
   }
 
   .nare_btn2 {
     position: absolute;
-
     top: 86%;
     right: 28%;
   }
+}
+
+.footer {
+  color: rgb(100, 80, 29);
+  padding: 30px 20px 50px 20px;
+  text-align: center;
+}
+
+.footer li {
+  display: inline;
+  list-style: none;
+  margin: 0 30px;
+  font-family: "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho",
+    serif;
+}
+
+.footer a {
+  color: rgb(100, 80, 29);
+  text-decoration: none;
 }
 
 /* PCの画面サイズ（最小幅768ピクセル）で適用するスタイル */
