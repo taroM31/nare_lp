@@ -38,10 +38,34 @@ img {
     right: 11%;
   }
 
+  .nare_underbtn {
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+  }
+
   .nare_btn2 {
-    position: absolute;
-    top: 86%;
-    right: 28%;
+    width: 80%;
+  }
+
+  .footer {
+    padding: 20px 12px;
+  }
+
+  .footer li {
+    font-size: 13px;
+    margin: 0 0 5px 0 !important;
+    display: block !important;
+  }
+
+  .footer ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer p {
+    font-size: 12px;
   }
 }
 
