@@ -3,23 +3,100 @@ body {
   padding: 0;
 }
 
-.nare_img-2 {
-  margin-top: -5%;
-}
-
 img {
   vertical-align: bottom;
+}
+
+.nare_wrapper {
+  position: relative;
+  text-align: center;
+}
+
+.nare_btn1 {
+  position: absolute;
+  width: 60%;
+  top: 90%;
+  right: 20%;
+}
+
+.nare_underbtn {
+  text-align: center;
+  padding-top: 30px;
+  width: 100%;
+  height: auto;
+}
+
+.nare_btn2 {
+  width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .nare_btn1 {
+    position: absolute;
+    width: 80%;
+    top: 88%;
+    right: 11%;
+  }
+
+  .nare_underbtn {
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+  }
+
+  .nare_btn2 {
+    width: 80%;
+  }
+
+  .footer {
+    padding: 20px 12px;
+  }
+
+  .footer li {
+    font-size: 13px;
+    margin: 0 0 5px 0 !important;
+    display: block !important;
+  }
+
+  .footer ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+}
+
+.footer {
+  color: rgb(100, 80, 29);
+  padding: 30px 20px 50px 20px;
+  text-align: center;
+}
+
+.footer li {
+  display: inline;
+  list-style: none;
+  margin: 0 30px;
+  font-family: "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho",
+    serif;
+}
+
+.footer a {
+  color: rgb(100, 80, 29);
+  text-decoration: none;
 }
 
 /* PCの画面サイズ（最小幅768ピクセル）で適用するスタイル */
 @media screen and (min-width: 768px) {
   .container {
-      width: 1280px; /* コンテンツの幅を1280ピクセルに固定 */
-      margin: 0 auto; /* 左右のマージンを自動に設定して中央揃えに */
-      background-color: white; /* 背景色を白に設定 */
+    width: 1280px; /* コンテンツの幅を1280ピクセルに固定 */
+    margin: 0 auto; /* 左右のマージンを自動に設定して中央揃えに */
+    background-color: white; /* 背景色を白に設定 */
   }
 
   body {
-      background-color: white; /* 背景色を白に設定 */
+    background-color: white; /* 背景色を白に設定 */
   }
 }
