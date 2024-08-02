@@ -4,6 +4,7 @@ body {
 }
 
 img {
+  width: 100%;
   vertical-align: bottom;
 }
 
@@ -15,7 +16,7 @@ img {
 .nare_btn1 {
   position: absolute;
   width: 60%;
-  top: 90%;
+  top: 97.5%;
   right: 20%;
 }
 
@@ -30,12 +31,20 @@ img {
   width: 60%;
 }
 
+.nare_detail03 {
+  margin-top: -57px;
+}
+
 @media screen and (max-width: 768px) {
+  .nare_detail03 {
+    margin-top: -5% !important;
+  }
+
   .nare_btn1 {
     position: absolute;
-    width: 80%;
-    top: 88%;
-    right: 11%;
+    width: 65%;
+    top: 97.2%;
+    right: 18%;
   }
 
   .nare_underbtn {
@@ -66,6 +75,53 @@ img {
 
   .footer p {
     font-size: 12px;
+  }
+
+  .section_container {
+    padding: 0 15px 30px 15px !important;
+  }
+
+  .intro_wrapper {
+    padding: 45px 15px !important;
+  }
+
+  .howto_btn {
+    width: 70%;
+    margin-top: 0 !important;
+  }
+
+  .product_title {
+    margin-top: 20px !important;
+  }
+  details {
+    margin-top: 5px;
+  }
+  summary {
+    width: 280px !important;
+    font-size: 24px !important;
+    padding: 20px 0 !important;
+  }
+
+  .summary_detail {
+    font-size: 13px !important;
+    width: 95% !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  summary {
+    width: 160px !important;
+    font-size: 16px !important;
+    padding: 10px 0 !important;
+  }
+
+  .intro_wrapper {
+    padding: 30px 10px !important;
+  }
+
+  .howto_btn {
+    width: 80%;
+    margin-top: 0 !important;
   }
 }
 
@@ -99,4 +155,77 @@ img {
   body {
     background-color: white; /* 背景色を白に設定 */
   }
+}
+
+.intro_wrapper {
+  padding: 100px 35px;
+  background-color: #e3cdca;
+}
+
+.product_title {
+  margin-top: 35px;
+}
+
+.section_container {
+  background-color: #fff9f2;
+  padding: 0 40px 50px 40px;
+  text-align: center;
+}
+
+summary {
+  /* display: list-item;以外を指定してデフォルトの三角形アイコンを消します */
+  display: block;
+}
+
+summary::-webkit-details-marker {
+  /* Safariで表示されるデフォルトの三角形アイコンを消します */
+  display: none;
+}
+
+summary {
+  width: 373px;
+  background-color: #4d1010;
+  display: inline-block;
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.summary_detail {
+  font-size: 16px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.howto_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 30px 60px;
+  gap: 25px;
+  position: relative;
+  background-color: #fff;
+}
+
+.step {
+  width: 70px;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.howto_detail {
+  text-align: right;
+}
+
+/* .howto_img {
+  margin-left: 35px;
+} */
+
+.howto_btn {
+  display: inline-block;
+  margin-top: -100px;
 }
