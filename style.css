@@ -16,8 +16,27 @@ img {
 .nare_btn1 {
   position: absolute;
   width: 60%;
-  top: 97.5%;
+  top: 93.6%;
   right: 20%;
+}
+
+.nare_btn_sp {
+  position: absolute;
+  width: 40%;
+  top: 96.2%;
+  left: 8%;
+}
+.nare_btn_tr {
+  position: absolute;
+  width: 40%;
+  top: 96.2%;
+  right: 8%;
+}
+.nare_btn_oil {
+  position: absolute;
+  width: 40%;
+  top: 98.1%;
+  right: 30%;
 }
 
 .nare_underbtn {
