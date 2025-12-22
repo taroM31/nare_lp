@@ -54,6 +54,30 @@ img {
   margin-top: -57px;
 }
 
+.treatment_wrapper {
+  position: relative;
+}
+
+.nare_hair_gif {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30%;
+}
+
+.hair_gif_wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.nare_btn_tr_overlay {
+  position: absolute;
+  top: 89%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 35%;
+}
+
 @media screen and (max-width: 768px) {
   .nare_detail03 {
     margin-top: -5% !important;
