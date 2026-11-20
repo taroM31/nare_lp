@@ -86,8 +86,8 @@ img {
   .nare_btn1 {
     position: absolute;
     width: 65%;
-    top: 97.2%;
-    right: 18%;
+    top: 93.6%;
+    right: 17.5%;
   }
 
   .nare_underbtn {
@@ -272,3 +272,21 @@ summary {
   display: inline-block;
   margin-top: -100px;
 }
+
+/* Website reopening notice */
+.site-notice { padding: 56px 32px; background: #e3cdca; color: rgb(100, 80, 29); font-family: "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif; }
+.site-notice__box { box-sizing: border-box; max-width: 920px; margin: 0 auto; padding: 36px 44px; border: none; background: #fff; }
+.site-notice__label { margin: 0 0 16px; color: #4d1010; font-size: 13px; letter-spacing: .18em; }
+.site-notice h2 { margin: 0 0 24px; padding-bottom: 22px; border-bottom: 1px solid #4d1010; color: #4d1010; font-family: "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", serif; font-size: 25px; font-weight: 600; line-height: 1.65; }
+.site-notice__body { color: #4d1010; font-size: 15px; line-height: 2; overflow-wrap: anywhere; }
+.site-notice__body p { margin: 0 0 18px; }
+.site-notice__body .site-notice__signature { margin: 28px 0 0; text-align: right; }
+@media screen and (max-width: 767px) {
+  .site-notice { padding: 32px 16px; }
+  .site-notice__box { padding: 24px 20px; }
+  .site-notice h2 { font-size: 20px; margin-bottom: 20px; padding-bottom: 18px; }
+  .site-notice__body { font-size: 14px; line-height: 1.95; }
+}
+
+/* Keep the existing 1200px desktop layout within narrower screens. */
+.container { max-width: 100%; }
